@@ -11,7 +11,7 @@ The following code changes were applied for to the timeline:
 * not using the timeline tag system so using styles to hide that
 * override styles in vendor/assets/stylesheets/timeline.css at the bottom
 * js/css locations
-  * storyjs-embed.js contains settings for where the timeline js and css files are located. In dev mode, these are at the root while in prod these are under the assets folder.  The following changes where made to accomadate this.
+  * storyjs-embed.js contains settings for where the timeline js and css files are located. In dev mode, these are at the root while in prod these are under the assets folder.  The following changes where made to accommodate this.
     * layout/timeline.html.erb - in js, added the following:
       ```javascript
 			var asset_location = '';
